@@ -14,12 +14,12 @@ return (
     <>
     <h1 id="title">Website To Buy Cameras</h1>
     <div>
-        <img width="200px" src={imageUr}/>
+        <img className='camera'width="200px" src={imageUr}/>
         <RainbowGen words="Picture of a Camera"/>
     </div>
     <section>
         <h2>The expensive camera</h2>
-        <img src={cameraUr}/>
+        <img className='camera' src={cameraUr}/>
         <p>This camera is very good</p>
     </section>
     <input type="button" onClick={handleClick}></input>

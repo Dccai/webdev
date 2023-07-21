@@ -6,3 +6,7 @@ image{
     color:blue;
     font-family: 'Courier New', Courier, monospace;
 }
+.camera
+{
+border-radius: 50%;
+}
