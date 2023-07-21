@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import  { BrowserRouter, Routes, Route, Outlet, Link } from "react-router-dom";
+import  { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { FrontPage } from './pages/FrontPage/FrontPage.js';
 import { About } from './pages/About/About.js';
 function App() {
@@ -13,7 +13,6 @@ function App() {
         <div>  <Link to="/About">About</Link></div>
         
       </nav>
-      <Outlet/>
       </>
     )
   }
