@@ -19,10 +19,19 @@ return (
         <RainbowGen words="Picture of a Camera"/>
     </div>
     <section>
+        <RainbowGen words="List of Cameras"/>
+        <ul>
+            <li>Camera 1000</li>
+            <li>Flying Camera</li>
+            <li>Super Smart Camera</li>
+        </ul>
+    </section>
+    <section>
         <h2>The expensive camera</h2>
         <Link to="/Camera1"><img className='camera' src={cameraUr}/></Link>
         <p>This camera is very good</p>
     </section>
+    <br/>
     <input type="button" onClick={handleClick}></input>
     <label>Number Cameras You Want to Buy: {number} <br/> Price: ${number*300} </label>
     
