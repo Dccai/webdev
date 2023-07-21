@@ -1,0 +1,17 @@
+.component{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+#flash{
+    position:absolute;
+    left:750px;
+    top:40px;
+    background-color: aqua;
+}
+#lens{
+    position:absolute;
+    left:650px;
+    top:160px;
+    background-color: blueviolet;
+}

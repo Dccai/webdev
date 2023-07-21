@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 import './FrontPage.css';
 import { cameraUrl, imageUrl } from '../../assets/Images';
 import { RainbowGen } from '../../components/RainbowGen';
@@ -19,7 +20,7 @@ return (
     </div>
     <section>
         <h2>The expensive camera</h2>
-        <img className='camera' src={cameraUr}/>
+        <Link to="/Camera1"><img className='camera' src={cameraUr}/></Link>
         <p>This camera is very good</p>
     </section>
     <input type="button" onClick={handleClick}></input>

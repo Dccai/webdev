@@ -3,6 +3,7 @@ import './App.css';
 import  { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { FrontPage } from './pages/FrontPage/FrontPage.js';
 import { About } from './pages/About/About.js';
+import { Camera1 } from './pages/Camera One/Camera1';
 function App() {
   function NavBar (){
     return (
@@ -23,6 +24,7 @@ function App() {
       <Routes>
       <Route path="/" element={<FrontPage/>}/>
       <Route path="/About" element={<About/>}/>
+      <Route path="/Camera1" element={<Camera1/>}/>
       </Routes>
       </BrowserRouter>
     </div>
